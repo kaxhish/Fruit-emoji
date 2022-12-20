@@ -7,5 +7,5 @@
 
  Technologies--HTMl, CSS , JAVASCRIPT, REACT
 
- Link to Github--
- Link to output--
+ Link to Github--https://github.com/kaxhish/Fruit-emoji
+ Link to output--https://10v50p.csb.app/
