@@ -23,8 +23,11 @@ export default function App() {
 
   function inputHandler(event) {
     let userInput = event.target.value;
-    const meaning = fruits[userInput];
-    setMeaning(meaning);
+    if (userInput in fruits) {
+      setMeaning(fruits[userInput]);
+    } else {
+      setMeaning("give appropriate input");
+    }
   }
   function emojinputHandler(item) {
     const meaning = fruits[item];
